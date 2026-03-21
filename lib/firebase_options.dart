@@ -70,7 +70,7 @@ class DefaultFirebaseOptions {
     projectId: 'klik-hemat',
     databaseURL: 'https://klik-hemat-default-rtdb.firebaseio.com',
     storageBucket: 'klik-hemat.appspot.com',
-    iosBundleId: 'com.example.klikhemat.klikHemat',
+    iosBundleId: 'com.example.klikHemat',
   );
 
 }
