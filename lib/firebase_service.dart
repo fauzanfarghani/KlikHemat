@@ -33,13 +33,17 @@ class FirebaseService {
     }
   }
 
-  static Future<User?> login(String email, String password)async {
+  static Future<User?> login(String email, String password) async {
+    print("FirebaseService.login started for email: $email");
     try {
       final user = await FirebaseAuth.instance.signInWithEmailAndPassword(email: email, password: password);
+      print("FirebaseService.login success: ${user.user?.uid}");
       return user.user;
     } on FirebaseAuthException catch (e) {
+      print("FirebaseAuthException in login: code=${e.code}, message=${e.message}, detail=${e.toString()}");
       return Future.error(e.message.toString());
     } catch (e) {
+      print("Unknown error in FirebaseService.login: $e");
       return Future.error(e);
     }
   }
