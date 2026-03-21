@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "989517158856",
+    "firebase_url": "https://klik-hemat-default-rtdb.firebaseio.com",
+    "project_id": "klik-hemat",
+    "storage_bucket": "klik-hemat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989517158856:android:ca8acbedd51279737008fd",
+        "android_client_info": {
+          "package_name": "com.example.klikhemat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwYSIxb4ltY_48g5-zGkf1KFwf7k2gcIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
