@@ -32,6 +32,7 @@ firepit-log.txt
 .pub-cache/
 .pub/
 /build/
+!/build/web/
 
 # Symbolication related
 app.*.symbols
