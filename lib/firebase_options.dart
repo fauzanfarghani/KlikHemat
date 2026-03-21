@@ -52,15 +52,7 @@ class DefaultFirebaseOptions {
     measurementId: 'G-7L96W8NZZF',
   );
 
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDhwDv8G2DDxsvUhNbCao8R3akW2ZMHv58',
-    appId: '1:989517158856:ios:65634e1b9744295d7008fd',
-    messagingSenderId: '989517158856',
-    projectId: 'klik-hemat',
-    databaseURL: 'https://klik-hemat-default-rtdb.firebaseio.com',
-    storageBucket: 'klik-hemat.appspot.com',
-    iosBundleId: 'com.example.klikHemat',
-  );
+
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBwYSIxb4ltY_48g5-zGkf1KFwf7k2gcIQ',
