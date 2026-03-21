@@ -50,4 +50,4 @@ If you want to run this application locally, ensure you have Flutter and the nec
 *(Consider inserting screenshots or GIF recordings of your beautiful UI here!)*
 
 ---
-Designed with ❤️ to promote intelligent electrical distribution and greener earth.
+Developed by Fauzan Rahmat Farghani and Andhika Jaya Permana.
